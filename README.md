@@ -14,6 +14,14 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Hosting the frontend project using Github Pages feature
+
+Go to the Repository --> then Settings --> `Pages`
+
+Deploy from a branch --> Main --> `/docs` --> Save
+
+Go to Actions to find the `URL` of your site.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
