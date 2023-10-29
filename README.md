@@ -34,6 +34,8 @@ And then in the package.json file add these 4 scripts:
     "delete:docs": "del docs",
     "copy:dist": "copyfiles dist/gifs-app/* ./docs -f"
 
+Then run `npm run build:github` before deploying it to Github Pages and you are done!
+
 ## In Github
 
 Go to the Repository --> then Settings --> `Pages`
