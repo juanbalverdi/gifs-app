@@ -27,12 +27,13 @@ https://www.npmjs.com/package/del-cli
 
 https://www.npmjs.com/package/copyfiles
 
-And then in the package.json file add these 4 scripts:
+And then in the package.json file add these five scripts:
 
     "build:href": "ng build --base-href ./",
     "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist",
     "delete:docs": "del docs",
     "copy:dist": "copyfiles dist/gifs-app/* ./docs -f"
+    "copy:assets": "copyfiles dist/gifs-app/assets/* ./docs/assets -f"
 
 Then run `npm run build:github` before deploying it to Github Pages and you are done!
 
